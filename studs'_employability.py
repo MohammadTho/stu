@@ -4,13 +4,13 @@ import os
 import joblib
 import seaborn as sns
 import matplotlib.pyplot as plt
+import numpy as np
 from sklearn.preprocessing import PolynomialFeatures, MinMaxScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-import numpy as np
 
 # Streamlit app UI for file upload
 st.title("Student Employability Prediction")
